@@ -18,7 +18,14 @@
 <body>
 
   <header>
-    <nav>
-      <h1>ThemeSocks</h1>
+    <nav class="navigation sticky-top">
+        <a class="brand" href="#">ThemeSocks</a>
+        <a class="cart-btn">
+            <!--For modern browsers-->
+
+            <i class="material-icons">
+            shopping_cart
+            </i>Go Cart
+        </a>
     </nav>
   </header>
