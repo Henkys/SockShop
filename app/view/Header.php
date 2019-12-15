@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="../app/view/assets/js/app.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="../app/view/css/styles.css">
+  <link rel="icon" href="view/assets/images/themeSocksLogo.png" type="icon/png">
 
-    <link rel="stylesheet" href="../app/view/assets/css/styles.css">
-
-    <script src="../app/view/assets/js/app.js"></script>
-
-    <title>Website</title>
 </head>
+
 <body>
 
-<header>
-    <!-- <div id="wave">
-    </div> -->
-    <nav>
-    <h1 class="center">Henkys</h1>
-    </nav>
+  <header>
+    <nav class="navigation sticky-top">
+      <a class="brand" href="#">ThemeSocks</a>
+      <a class="cart-btn">
+        <!--For modern browsers-->
 
-    <section class="bg-default">
-    <div class="section-wave">
-          <svg x="0px" y="0px" width="1920px" height="46px" viewBox="0 0 1920 46" preserveAspectRatio="none">
-            <path d="M1920,0.5c-82.8,0-109.1,44-192.3,44c-78.8,0-116.2-44-191.7-44c-77.1,0-115.9,44-192,44c-78.2,0-114.6-44-192-44c-78.4,0-115.3,44-192,44c-76.9-0.1-119-44-192-44c-77,0-115.2,44-192,44c-73.6,0-114-44-190.9-44c-78.5,0-117.2,44-194.1,44c-75.9,0-113-44-191-44V46h1920V0.5z"></path>
-          </svg>
-        </div>
-    </section>
-</header>
-    
+        <i class="material-icons">
+          shopping_cart
+        </i>Go Cart
+      </a>
+    </nav>
+  </header>

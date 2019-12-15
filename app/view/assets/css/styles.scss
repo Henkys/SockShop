@@ -1,13 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 $primary: #6D0EB1;
 $secondary:#FFFFFF;
 $nav: #243238;
 $seconddiv: #29293A;
 $yellow:#FAE718;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+    
+    .cart-btn {
+        margin: auto;
+    }
+}
+
 
 nav{
     // background-color:$primary;
@@ -34,7 +47,4 @@ svg {
 .bg-default {
   background-color: #fff;
   fill: #fff;
-}
-.center{
-  margin:0 auto;
 }
