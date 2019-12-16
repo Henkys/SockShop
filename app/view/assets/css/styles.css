@@ -14,4 +14,33 @@
 .navigation .cart-btn {
   margin: auto;
 }
+
+.hero {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
+}
+
+.section-wave {
+  position: absolute;
+  -webkit-transform: translateY(-97%);
+          transform: translateY(-97%);
+  width: 100vw;
+  line-height: 0;
+}
+
+.section-wave > svg {
+  width: 100vw;
+  height: auto;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.bg-default {
+  background-color: #fff;
+  fill: #fff;
+}
 /*# sourceMappingURL=styles.css.map */

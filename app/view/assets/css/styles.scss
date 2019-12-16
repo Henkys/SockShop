@@ -1,3 +1,10 @@
+
+$primary: #6D0EB1;
+$secondary:#FFFFFF;
+$nav: #243238;
+$seconddiv: #29293A;
+$yellow:#FAE718;
+
 * {
     margin: 0;
     padding: 0;
@@ -13,3 +20,28 @@
         margin: auto;
     }
 }
+.hero{
+    height:300px;
+    width:100%;
+    background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
+    background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);
+}
+.section-wave {
+  position: absolute;
+  transform: translateY(-97%);
+  width: 100vw;
+  line-height: 0;
+}
+.section-wave>svg {
+  width: 100vw;
+  height: auto;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.bg-default {
+  background-color: #fff;
+  fill: #fff;
+}
+
