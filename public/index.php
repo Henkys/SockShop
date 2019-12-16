@@ -1,6 +1,4 @@
-<head>
-<link rel="stylesheet" href="  ../app/view/assets/css/styles.css">
-</head>
+
 
 
 
