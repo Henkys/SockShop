@@ -18,14 +18,22 @@
 <body>
 
   <header>
-    <nav class="navigation sticky-top">
-      <a class="brand" href="#">ThemeSocks</a>
-      <a class="cart-btn">
-        <!--For modern browsers-->
+    <nav class="fixed-top navigation">
+      <div class="row">
+        <div class="col-md-5">
+          <a class="brand" href="#">ThemeSocks</a>
+        </div>
+        <div class="col-md-2 cart-container">
+          <a class="cart-btn">
+            <!--For modern browsers-->
 
-        <i class="material-icons">
-          shopping_cart
-        </i>
-      </a>
+            <i class="material-icons">
+              shopping_cart
+            </i>
+            Socking cart
+          </a>
+        </div>
+      </div>
+
     </nav>
   </header>

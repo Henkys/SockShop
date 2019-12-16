@@ -1,6 +1,6 @@
 
 $primary: #6D0EB1;
-$secondary:#FFFFFF;
+$secondary:#080ab4;
 $nav: #243238;
 $seconddiv: #29293A;
 $yellow:#FAE718;
@@ -14,14 +14,36 @@ $yellow:#FAE718;
 .navigation {
     width: 100%;
     padding: 5px;
-    background-color: blue;
-    
-    .cart-btn {
-        margin: auto;
+    background-color: $nav;
+    height: 5vh;
+    box-shadow: 0px 0px 15px 0px black;
+    overflow: hidden;
+    .cart-container {
+        text-align: center;
+        .cart-btn {
+          color: #fff;
+          background-color: $secondary;
+          border-radius: 5px;
+          padding: 10;
+          transition: color, background-color ease 0.5s;
+          box-shadow: 0px 0px 5px 0px black;
+        }
+        .cart-btn:hover {
+            color: rgb(255, 255, 255);
+            background-color: $primary;
+            cursor: pointer;
+        }
     }
+
 }
+
+body {
+  
+  overflow-x: hidden;
+}
+
 .hero{
-    height:300px;
+    height:60vh;
     width:100%;
     background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
     background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);

@@ -8,15 +8,40 @@
 .navigation {
   width: 100%;
   padding: 5px;
-  background-color: blue;
+  background-color: #243238;
+  height: 5vh;
+  -webkit-box-shadow: 0px 0px 15px 0px black;
+          box-shadow: 0px 0px 15px 0px black;
+  overflow: hidden;
 }
 
-.navigation .cart-btn {
-  margin: auto;
+.navigation .cart-container {
+  text-align: center;
+}
+
+.navigation .cart-container .cart-btn {
+  color: #fff;
+  background-color: #080ab4;
+  border-radius: 5px;
+  padding: 10;
+  -webkit-transition: color, background-color ease 0.5s;
+  transition: color, background-color ease 0.5s;
+  -webkit-box-shadow: 0px 0px 5px 0px black;
+          box-shadow: 0px 0px 5px 0px black;
+}
+
+.navigation .cart-container .cart-btn:hover {
+  color: white;
+  background-color: #6D0EB1;
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .hero {
-  height: 300px;
+  height: 60vh;
   width: 100%;
   background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
 }
