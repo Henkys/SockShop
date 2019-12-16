@@ -11,9 +11,14 @@
   <script src="../app/view/assets/js/app.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<<<<<<< HEAD
   <link rel="stylesheet" href="../app/view/assets/css/styles.css">
   <link rel="icon" href="view/assets/images/themeSocksLogo.png" type="icon/png">
 
+=======
+  <!-- <link rel="stylesheet" href="../app/view/css/styles.css"> -->
+  <link rel="icon" href="../app/view/assets/images/themeSocksLogo.png" type="image/png" sizes="16x16">
+>>>>>>> aa267c256b725d3bf45794409473d83e1fdbf71b
 </head>
 
 <body>

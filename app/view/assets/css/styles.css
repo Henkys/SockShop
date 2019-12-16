@@ -14,7 +14,8 @@
 .navigation .cart-btn {
   margin: auto;
 }
-nav {
+
+.hero {
   height: 300px;
   width: 100%;
   background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
@@ -41,9 +42,5 @@ svg {
 .bg-default {
   background-color: #fff;
   fill: #fff;
-}
-
-.center {
-  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */
