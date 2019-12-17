@@ -56,6 +56,10 @@ body {
       }
     }
 }
+.bg-default {
+  background-color: #fff;
+  fill: #fff;
+
 .section-wave {
   position: absolute;
   transform: translateY(-97%);
@@ -70,10 +74,9 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
-.bg-default {
-  background-color: #fff;
-  fill: #fff;
 }
-#id1,#id2,#id3{
-  display:none;
+.fullcover{
+  background-color:$primary;
+  height:20vh;
+  max-width:100%;
 }

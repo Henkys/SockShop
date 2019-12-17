@@ -9,7 +9,8 @@
     <h1 class="center">sockshop</h1>
 </div>
 </div>
-</div></div>
+</div>
+</div>
     <section class="bg-default">
         <div class="section-wave">
           <svg x="0px" y="0px" width="1920px" height="46px" viewBox="0 0 1920 46" preserveAspectRatio="none">
@@ -17,13 +18,23 @@
           </svg>
         </div>
     </section>
+
     <div class="container">
     <div class="row">
-
     <div class="col-md-6">
 
 </div>
 <div class="col-md-6">
+</div>
+</div>
+</div>
+<div class="container fullcover">
+    <div class="row">
+<div class="col-md-12">
+<div class="info">
+
+<h1>SockShop Information</h1>
+
 </div>
 </div>
 </div>
@@ -42,11 +53,7 @@
 
 </div>
 
-<div class="info">
 
-    <h1>SockShop Information</h1>
-
-</div>
 
 <div class="sock-banner">
 
