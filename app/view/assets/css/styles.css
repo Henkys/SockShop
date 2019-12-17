@@ -84,4 +84,8 @@ body {
   height: 20vh;
   max-width: 100%;
 }
+
+.fullcover .info h1 {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
