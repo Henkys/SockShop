@@ -25,6 +25,14 @@ $yellow:#FAE718;
     width:100%;
     background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
     background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);
+    .herotext{
+      color:#fff;
+      padding-top:80px;
+      margin:0 auto;
+      .center{
+        text-align: center;
+      }
+    }
 }
 .section-wave {
   position: absolute;
@@ -44,4 +52,6 @@ svg {
   background-color: #fff;
   fill: #fff;
 }
-
+#id1,#id2,#id3{
+  display:none;
+}

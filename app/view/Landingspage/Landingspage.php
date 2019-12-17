@@ -1,9 +1,15 @@
 
 <title>ThemeSocks</title>
 <?php require_once '../app/view/Header.php'; ?>
-
 <div class="hero">
-    <h1 class="center">Henkys</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md- herotext">
+        <h4 class="center">make the right choice</h4>
+    <h1 class="center">sockshop</h1>
+</div>
+</div>
+</div>
 </div>
 <section class="bg-default">
     <div class="section-wave">
@@ -12,5 +18,17 @@
           </svg>
         </div>
     </section>
+    <div class="container">
+    <div class="row">
+
+    <div class="col-md-6">
+
+</div>
+<div class="col-md-6">
+</div>
+</div>
+</div>
+</div>
+
 
 <?php require_once '../app/view/Footer.php'; ?>
