@@ -7,30 +7,30 @@
 
 .navigation {
   width: 100%;
-  padding: 5px;
   background-color: #243238;
-  height: 5vh;
+  height: 50px;
   -webkit-box-shadow: 0px 0px 15px 0px black;
           box-shadow: 0px 0px 15px 0px black;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation .cart-container {
   text-align: center;
+  height: 50px;
+  background-color: #080ab4;
+  -webkit-transition: color, background-color ease 0.5s;
+  transition: color, background-color ease 0.5s;
 }
 
 .navigation .cart-container .cart-btn {
+  margin: auto;
   color: #fff;
-  background-color: #080ab4;
-  border-radius: 5px;
-  padding: 10;
-  -webkit-transition: color, background-color ease 0.5s;
-  transition: color, background-color ease 0.5s;
-  -webkit-box-shadow: 0px 0px 5px 0px black;
-          box-shadow: 0px 0px 5px 0px black;
+  height: 100%;
 }
 
-.navigation .cart-container .cart-btn:hover {
+.navigation .cart-container:hover {
   color: white;
   background-color: #6D0EB1;
   cursor: pointer;
@@ -41,7 +41,7 @@ body {
 }
 
 .hero {
-  height: 60vh;
+  height: 600px;
   width: 100%;
   background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
 }
@@ -77,15 +77,67 @@ body {
 .bg-default svg {
   overflow: hidden;
   vertical-align: middle;
-}
-
-.fullcover {
-  background-color: #6D0EB1;
-  height: 20vh;
-  max-width: 100%;
-}
-
-.fullcover .info h1 {
   text-align: center;
+}
+
+.sock-deals {
+  padding: 15px;
+  height: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.sock-list {
+  padding: 15px;
+  height: 600px;
+  max-width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #243238;
+}
+
+.info {
+  padding: 15px;
+  height: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.sock-banner {
+  padding: 15px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
+}
+
+.s-border {
+  width: 100px;
+  height: 5px;
+  border-radius: 25px;
+  margin: auto;
+  background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
+}
+
+.sock-item {
+  margin: 25px;
+  height: 300px;
+  width: 20%;
+  -webkit-box-shadow: 0px 0px 10px 0px black;
+          box-shadow: 0px 0px 10px 0px black;
+  border-radius: 10px;
+}
+
+.sock-item .sock-item-img {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80%;
+}
+
+footer {
+  height: 200px;
+  max-width: 100%;
+  color: white;
+  background-color: #243238;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 
 $primary: #6D0EB1;
 $secondary:#080ab4;
-$nav: #243238;
+$grey: #243238;
 $seconddiv: #29293A;
 $yellow:#FAE718;
 
@@ -13,27 +13,28 @@ $yellow:#FAE718;
 
 .navigation {
     width: 100%;
-    padding: 5px;
-    background-color: $nav;
-    height: 5vh;
+    background-color: $grey;
+    height: 50px;
     box-shadow: 0px 0px 15px 0px black;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
     .cart-container {
         text-align: center;
+        height: 50px;
+        background-color: $secondary;
+        transition: color, background-color ease 0.5s;
         .cart-btn {
+          margin: auto;
           color: #fff;
-          background-color: $secondary;
-          border-radius: 5px;
-          padding: 10;
-          transition: color, background-color ease 0.5s;
-          box-shadow: 0px 0px 5px 0px black;
-        }
-        .cart-btn:hover {
-            color: rgb(255, 255, 255);
-            background-color: $primary;
-            cursor: pointer;
+          height: 100%;
         }
     }
+    .cart-container:hover {
+      color: rgb(255, 255, 255);
+      background-color: $primary;
+      cursor: pointer;
+  }
 
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 .hero{
-    height:60vh;
+    height:600px;
     width:100%;
     background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
     background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);
@@ -73,13 +74,69 @@ body {
 svg {
   overflow: hidden;
   vertical-align: middle;
+  text-align:center;
 }
 }
-.fullcover{
-  background-color:$primary;
-  height:20vh;
+
+.sock-deals {
+  padding: 15px;
+  height:600px;
   max-width:100%;
-  .info h1{
-    text-align:center;
-  }
+  text-align:center;
+}
+
+.sock-list {
+  padding: 15px;
+  height:600px;
+  max-width:100%;
+  color: white;
+  text-align:center;
+  background-color: $grey;
+}
+
+.info {
+  padding: 15px;
+  height:600px;
+  max-width:100%;
+  text-align:center;
+}
+
+.sock-banner {
+  padding: 15px;
+  height:150px;
+  color: white;
+  text-align:center;
+  background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
+  background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);
+}
+
+.s-border {
+  width: 100px;
+  height: 5px;
+  border-radius: 25px;
+  margin: auto;
+
+  background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
+  background-image: linear-gradient(135deg,$primary 59%,#080ab4 100%);
+}
+
+.sock-item {
+  margin: 25px;
+  height: 300px;
+  width: 20%;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 10px;
+    .sock-item-img {
+      border-bottom: 1px solid black;
+      width: 100%;
+      height: 80%;
+    }
+
+}
+
+footer {
+  height:200px;
+  max-width:100%;
+  color: white;
+  background-color: $grey;
 }
