@@ -5,8 +5,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md- herotext">
-        <h4 class="center">Make the right choice</h4>
-    <h1 class="center">Sock-shop</h1>
+        <h4 class="center">make the right choice.</h4>
+    <h1 class="center">SockShop</h1>
 </div>
 </div>
 </div>

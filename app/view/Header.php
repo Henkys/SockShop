@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="../app/view/assets/css/styles.css">
   <link rel="icon" href="../app/view/assets/images/themeSocksLogo.png" type="image/png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     <nav class="fixed-top navigation">
       <div class="row">
         <div class="col-md-5">
-          <a class="brand" href="#">ThemeSocks</a>
+          <a class="brand" href="#"><h1>ThemeSocks</h1></a>
         </div>
         <div class="col-md-2 cart-container">
           <a class="cart-btn">
@@ -29,8 +30,8 @@
 
             <i class="material-icons">
               shopping_cart
-            </i>
-            Socking cart
+            </i><br />
+            <div id="cart">Socking Cart</div>
           </a>
         </div>
       </div>
