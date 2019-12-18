@@ -1,11 +1,11 @@
 <?php
-    
+    include '../app/controller/Router/MainController.php';
 
     class Router {
 
         public function __construct()
         {
-            
+            $this->MainController = new MainController();
         }
 
         public function __destruct()
@@ -29,6 +29,7 @@
 
         public function collectLandingsPage()
         {
+            $mainThemes = $this->MainController->getLandingsPage();
             include '../app/view/Landingspage/Landingspage.php';
         }
 
