@@ -163,10 +163,12 @@ h1, h2, h3, #cart {
 
 .sock-item:hover {
   background-color: rgba(75, 0, 119, 0.308);
+  cursor: pointer;
 }
 
 footer {
-  height: 200px;
+  height: auto;
+  text-align: center;
   max-width: 100%;
   color: white;
   background-color: #243238;
