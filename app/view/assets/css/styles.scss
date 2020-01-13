@@ -118,6 +118,12 @@ svg {
   color: white;
   text-align:center;
   background-color: $grey;
+  .themeimg{
+    max-height:100%;
+    height:auto;
+    max-width:100%;
+    width:auto;
+  }
 }
 
 .info {
