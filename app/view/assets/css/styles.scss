@@ -58,7 +58,7 @@ $break-large: 1200px;
 }
 
 body {
-  
+
   overflow-x: hidden;
 }
 
@@ -78,7 +78,7 @@ h1,h2,h3,#cart {
 }
 
 .hero{
-    height:600px;
+    height:400px;
     width:100%;
     background-image: -webkit-linear-gradient(-39deg,$primary 45%,#080ab4 100%);
     background-image: linear-gradient(135deg,$primary 45%,#080ab4 100%);
@@ -90,6 +90,12 @@ h1,h2,h3,#cart {
         text-align: center;
       }
     }
+    @media screen and (max-width: $break-small) {
+      height: 200px;
+      }
+      @media screen and (min-width: $break-large) {
+      }
+  
 }
 .bg-default {
   background-color: #fff;
@@ -137,7 +143,7 @@ svg {
 
 .sock-banner {
   padding: 15px;
-  height:150px;
+  height: auto;
   color: white;
   text-align:center;
   background-image: -webkit-linear-gradient(-39deg,$primary 59%,#080ab4 100%);
@@ -166,6 +172,7 @@ svg {
       border-bottom: 1px solid black;
       width: 100%;
       height: 80%;
+      overflow: hidden;
     }
     @media screen and (max-width: $break-small) {
     display:block;
@@ -183,7 +190,8 @@ svg {
 }
 
 footer {
-  height:200px;
+  height:auto;
+  text-align:center;
   max-width:100%;
   color: white;
   background-color: $grey;

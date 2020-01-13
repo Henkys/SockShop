@@ -16,4 +16,9 @@ class MainController
     $mainThemes = $this->ThemesModel->readMainThemes();
     return $mainThemes;
   }
+
+  public function getSokDeals(){
+    $sokDeals = $this->ThemesModel->getSokDeals();
+    return $sokDeals;
+  }
 }
