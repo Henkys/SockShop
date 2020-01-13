@@ -64,6 +64,7 @@
 
     foreach ($mainThemes as $mainTheme) {
       $html .= "<div class='col-md-4'>";
+      $html .= "<a href='?op=themeSocks&code=$mainTheme[mainThemeCode]'>";
       $html .= "<div class='sock-item'>";
       $html .= "<div class='sock-item-img'>";
       // $html .="<img src='../app/view/assets/images/themeSocksLogo.png'>";
