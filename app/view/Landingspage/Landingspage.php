@@ -54,7 +54,7 @@
 <div class="sock-list">
 
   <h2>Sock Themes</h2>
-  <div class="s-border">
+  <div class="s-border"></div>
     <?php
     $html = "";
 
