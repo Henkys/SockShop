@@ -119,6 +119,13 @@ h1, h2, h3, #cart {
   background-color: #243238;
 }
 
+.sock-list .themeimg {
+  max-height: 100%;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
 .info {
   padding: 15px;
   height: auto;
@@ -128,7 +135,7 @@ h1, h2, h3, #cart {
 
 .sock-banner {
   padding: 15px;
-  height: 150px;
+  height: auto;
   color: white;
   text-align: center;
   background-image: linear-gradient(135deg, #6D0EB1 59%, #080ab4 100%);
