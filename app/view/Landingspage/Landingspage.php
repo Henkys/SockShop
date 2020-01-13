@@ -35,16 +35,19 @@
 
         <h2>Sock Deals</h2>
         <div class="s-border"></div>
+        <?php 
+        foreach($sokDeals as $key => $sokDeal){
+          print '<div class="sock-item">';
+          print '<div class="sock-item-img">';
+          print '<img src="' . $sokDeal['productFoto'] . '"></img>';
+          print '</div>';
+          print '<div class="sock-item-desc">';
+          print $sokDeal['productOmschrijving'];
+          print '</div></div>';
 
-        <div class="sock-item">
-          <div class="sock-item-img">
-
-          </div>
-          <div class="sock-item-desc">
-
-          </div>
-        </div>
-
+        } 
+        ?>
+        
       </div>
 
     </div>

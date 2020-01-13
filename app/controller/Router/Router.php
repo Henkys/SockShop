@@ -30,6 +30,7 @@
         public function collectLandingsPage()
         {
             $mainThemes = $this->MainController->getLandingsPage();
+            $sokDeals = $this->MainController->getSokDeals();
             include '../app/view/Landingspage/Landingspage.php';
         }
 
