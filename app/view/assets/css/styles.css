@@ -39,7 +39,7 @@
 
 #socking-cart {
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 50px;
   height: 150px;
@@ -187,7 +187,6 @@ h1, h2, h3, #cart {
 @media screen and (max-width: 320px) {
   .sock-item {
     display: block;
-    width: auto;
   }
 }
 

@@ -35,18 +35,20 @@
 
         <h2>Sock Deals</h2>
         <div class="s-border"></div>
+        <div class="row">
         <?php 
         foreach($sokDeals as $key => $sokDeal){
+          print '<div class="col-md-3">';
           print '<div class="sock-item">';
           print '<div class="sock-item-img">';
           print '<img src="' . $sokDeal['productFoto'] . '"></img>';
           print '</div>';
           print '<div class="sock-item-desc">';
           print $sokDeal['productOmschrijving'];
-          print '</div></div>';
+          print '</div></div></div>';
         } 
         ?>
-        
+        </div>
       </div>
     </div>
   </div>
@@ -56,10 +58,12 @@
 
   <h2>Sock Themes</h2>
   <div class="s-border"></div>
+    <div class="row">
     <?php
     $html = "";
 
     foreach ($mainThemes as $mainTheme) {
+      $html .= "<div class='col-md-4'>";
       $html .= "<div class='sock-item'>";
       $html .= "<div class='sock-item-img'>";
       // $html .="<img src='../app/view/assets/images/themeSocksLogo.png'>";
@@ -69,10 +73,12 @@
       $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
       $html .= "</div>";
       $html .= "</div>";
+      $html .= "</div>";
       // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
     }
     echo $html;
     ?>
+    </div>
   </div>
 
 </div>
