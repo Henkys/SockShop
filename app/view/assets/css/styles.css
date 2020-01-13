@@ -163,6 +163,7 @@ h1, h2, h3, #cart {
 
 .sock-item:hover {
   background-color: rgba(75, 0, 119, 0.308);
+  cursor: pointer;
 }
 
 footer {
