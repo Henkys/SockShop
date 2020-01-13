@@ -38,7 +38,7 @@
 
         <div class="sock-item">
           <div class="sock-item-img">
-
+          
           </div>
           <div class="sock-item-desc">
 
