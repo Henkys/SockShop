@@ -31,4 +31,34 @@ class ThemesModel
       throw $e;
     }
   }
+
+  public function getHappySocks(){
+    try{
+      $sql = "SELECT * FROM `producten` WHERE productId = 11";
+      $result = $this->DataHandler->readsData($sql);
+      return $result;
+    }catch(exception $e){
+      throw $e;
+    }
+  }
+
+  public function getKerstSocks(){
+    try{
+      $sql = "SELECT * FROM `producten` WHERE productId = 10";
+      $result = $this->DataHandler->readsData($sql);
+      return $result;
+    }catch(exception $e){
+      throw $e;
+    }
+  }
+
+  public function getSportSocks(){
+    try{
+      $sql = "SELECT * FROM `producten` WHERE productId = 12";
+      $result = $this->DataHandler->readsData($sql);
+      return $result;
+    }catch(exception $e){
+      throw $e;
+    }
+  }
 }

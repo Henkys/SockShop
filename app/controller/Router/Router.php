@@ -31,6 +31,9 @@
         {
             $mainThemes = $this->MainController->getLandingsPage();
             $sokDeals = $this->MainController->getSokDeals();
+            $happySocks = $this->MainController->getHappySocks();
+            $kerstSocks  = $this->MainController->getKerstSocks();
+            $sportSocks = $this->MainController->getSportSocks();
             include '../app/view/Landingspage/Landingspage.php';
         }
 

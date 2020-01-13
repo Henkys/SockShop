@@ -21,4 +21,19 @@ class MainController
     $sokDeals = $this->ThemesModel->getSokDeals();
     return $sokDeals;
   }
+
+  public function getHappySocks(){
+    $happySocks = $this->ThemesModel->getHappySocks();
+    return $happySocks;
+  }
+
+  public function getKerstSocks(){
+    $kerstSocks = $this->ThemesModel->getKerstSocks();
+    return $kerstSocks;
+  }
+
+  public function getSportSocks(){
+    $sportSocks = $this->ThemesModel->getSportSocks();
+    return $sportSocks;
+  }
 }

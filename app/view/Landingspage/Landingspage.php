@@ -44,7 +44,6 @@
           print '<div class="sock-item-desc">';
           print $sokDeal['productOmschrijving'];
           print '</div></div>';
-
         } 
         ?>
         
