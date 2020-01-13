@@ -56,27 +56,6 @@
 
   <h2>Sock Themes</h2>
   <div class="s-border"></div>
-<<<<<<< HEAD
-    <div class="row">
-      <?php
-      $html = "";
-
-      foreach ($mainThemes as $mainTheme) {
-        $html .= "<div class='col-md-4'>";
-        $html .= "<div class='sock-item'>";
-        $html .= "<div class='sock-item-img'>";
-        $html .= "</div>";
-        $html .= "<div class='sock-item-desc'>";
-        $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
-        $html .= "</div>";
-        $html .= "</div>";
-        $html .= "</div>";
-        // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
-      }
-      echo $html;
-      ?>
-    </div>
-=======
     <?php
     $html = "";
 
@@ -94,7 +73,6 @@
     }
     echo $html;
     ?>
->>>>>>> e556540a1db6f2aea16b0a9de8fb916cc2f3454c
   </div>
 
 </div>
