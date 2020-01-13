@@ -78,7 +78,18 @@
 
   <h2>SockShop Information</h1>
     <div class="s-border"></div>
+    <div class="container fullcover">
+  <div class="row">
+    <div class="col-md-6">
+    <img src="../app/view/assets/images/themeSocksLogo.png"  width="300" height="300">
 
+  </div>
+  <div class="col-md-6">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at odio ut elit sagittis posuere vitae vitae libero. Maecenas at cursus nisl, ac mattis ipsum. Sed et interdum leo. Duis porta arcu vitae tincidunt faucibus. Sed at tincidunt nisl, sit amet volutpat tortor. Ut id nisl sit amet nulla ultricies sodales. Quisque laoreet lacus ut turpis congue hendrerit. Morbi sapien dui, blandit eget pellentesque in, pulvinar sed mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla lobortis dolor vel lacus aliquet dictum. In suscipit orci vitae ornare dictum. Integer blandit, enim nec pretium lacinia.
+</p>
+  </div>
+  </div>
+  </div>
 </div>
 
 
