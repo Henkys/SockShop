@@ -27,7 +27,7 @@
     </div>
   </div>
 </div>
-<div class="container fullcover">
+<div class="container fullcover firstbox">
   <div class="row">
     <div class="col-md-12">
 
