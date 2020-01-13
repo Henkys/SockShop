@@ -28,7 +28,7 @@
         <div class="col-md-5">
           <a class="brand" href="#"><h1>ThemeSocks</h1></a>
         </div>
-        <div class="col-md-2 cart-container">
+        <div class="col-md-2 cart-container" onclick="openCart()">
           <a class="cart-btn">
             <!--For modern browsers-->
 
@@ -39,6 +39,20 @@
           </a>
         </div>
       </div>
-
+      
     </nav>
+    <div id="socking-cart">
+      <div class="row">
+        <div class="col-md-5">
+
+        </div>
+        <div class="col-md-2 shopping-cart">
+          
+        </div>
+        <div class="col-md-5">
+
+        </div>
+      </div>
+    </div>
+    
   </header>

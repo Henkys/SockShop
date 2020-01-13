@@ -37,6 +37,22 @@
   cursor: pointer;
 }
 
+#socking-cart {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  height: 150px;
+  width: 100%;
+}
+
+#socking-cart .shopping-cart {
+  min-height: 250px;
+  background-color: #080ab4;
+  -webkit-box-shadow: 0px 0px 10px 0px black;
+          box-shadow: 0px 0px 10px 0px black;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -99,14 +115,14 @@ h1, h2, h3, #cart {
 
 .sock-deals {
   padding: 15px;
-  height: 600px;
+  min-height: 600px;
   max-width: 100%;
   text-align: center;
 }
 
 .sock-list {
   padding: 15px;
-  height: auto;
+  min-height: 400px;
   max-width: 100%;
   color: white;
   text-align: center;
@@ -115,7 +131,7 @@ h1, h2, h3, #cart {
 
 .info {
   padding: 15px;
-  height: 600px;
+  min-height: 600px;
   max-width: 100%;
   text-align: center;
 }
