@@ -44,7 +44,6 @@
           print '<div class="sock-item-desc">';
           print $sokDeal['productOmschrijving'];
           print '</div></div>';
-
         } 
         ?>
         
@@ -57,6 +56,7 @@
 
   <h2>Sock Themes</h2>
   <div class="s-border"></div>
+<<<<<<< HEAD
     <div class="row">
       <?php
       $html = "";
@@ -76,6 +76,25 @@
       echo $html;
       ?>
     </div>
+=======
+    <?php
+    $html = "";
+
+    foreach ($mainThemes as $mainTheme) {
+      $html .= "<div class='sock-item'>";
+      $html .= "<div class='sock-item-img'>";
+      // $html .="<img src='../app/view/assets/images/themeSocksLogo.png'>";
+      $html .="<img class='themeimg' src='" . $mainTheme['mainThemeImg']. "' width='auto' height='auto'></img>";
+      $html .= "</div>";
+      $html .= "<div class='sock-item-desc'>";
+      $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
+      $html .= "</div>";
+      $html .= "</div>";
+      // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
+    }
+    echo $html;
+    ?>
+>>>>>>> e556540a1db6f2aea16b0a9de8fb916cc2f3454c
   </div>
 
 </div>

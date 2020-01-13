@@ -135,6 +135,13 @@ h1, h2, h3, #cart {
   background-color: #243238;
 }
 
+.sock-list .themeimg {
+  max-height: 100%;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
 .info {
   padding: 15px;
   min-height: 600px;
