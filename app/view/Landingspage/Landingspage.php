@@ -35,18 +35,19 @@
 
         <h2>Sock Deals</h2>
         <div class="s-border"></div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="sock-item">
+                <div class="sock-item-img">
 
-        <div class="sock-item">
-          <div class="sock-item-img">
+                </div>
+                <div class="sock-item-desc">
 
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="sock-item-desc">
-
-          </div>
-        </div>
-
       </div>
-
     </div>
   </div>
 </div>
@@ -55,21 +56,25 @@
 
   <h2>Sock Themes</h2>
   <div class="s-border"></div>
-    <?php
-    $html = "";
+    <div class="row">
+      <?php
+      $html = "";
 
-    foreach ($mainThemes as $mainTheme) {
-      $html .= "<div class='sock-item'>";
-      $html .= "<div class='sock-item-img'>";
-      $html .= "</div>";
-      $html .= "<div class='sock-item-desc'>";
-      $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
-      $html .= "</div>";
-      $html .= "</div>";
-      // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
-    }
-    echo $html;
-    ?>
+      foreach ($mainThemes as $mainTheme) {
+        $html .= "<div class='col-md-4'>";
+        $html .= "<div class='sock-item'>";
+        $html .= "<div class='sock-item-img'>";
+        $html .= "</div>";
+        $html .= "<div class='sock-item-desc'>";
+        $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
+        $html .= "</div>";
+        $html .= "</div>";
+        $html .= "</div>";
+        // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
+      }
+      echo $html;
+      ?>
+    </div>
   </div>
 
 </div>
