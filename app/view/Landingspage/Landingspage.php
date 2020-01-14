@@ -68,13 +68,13 @@
       $html .= "<div class='sock-item'>";
       $html .= "<div class='sock-item-img'>";
       // $html .="<img src='../app/view/assets/images/themeSocksLogo.png'>";
-      $html .="<img class='themeimg' src='" . $mainTheme['mainThemeImg']. "' width='auto' height='auto'></img>";
+      $html .="<img class='themeimg' src='" . $mainTheme['mainThemeImg'] . "' width='auto' height='auto'></img>";
       $html .= "</div>";
       $html .= "<div class='sock-item-desc'>";
       $html .= "<h2>$mainTheme[mainThemeName] Sokken</h2>";
       $html .= "</div>";
       $html .= "</div>";
-      $html .= "</div>";
+      $html .= "</a></div>";
       // $thisThemes = $this->ThemeModel->readThisMainTheme($mainTheme['mainThemeCode']);
     }
     echo $html;
