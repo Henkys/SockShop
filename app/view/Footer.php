@@ -12,7 +12,7 @@
         }
     }
 </script>
-<footer>
+<footer class="page-footer pt-4">
 
 <div class="container fullcover">
   <div class="row">
