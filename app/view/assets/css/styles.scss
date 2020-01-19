@@ -173,7 +173,13 @@ svg {
   width: 75%;
   box-shadow: 0px 0px 10px 0px black;
   border-radius: 10px;
-  transition: background-color ease-in-out 0.5s;
+  transition: filter ease-in-out 0.5s;
+  z-index: 2;
+  transition: all 400ms ease-in-out;
+  a {
+    color: white;
+    text-decoration: none;
+  }
     .sock-item-img {
       border-bottom: 1px solid black;
       width: 100%;
@@ -188,10 +194,11 @@ svg {
 
 }
 
-
 .sock-item:hover {
-  background-color: rgba(75, 0, 119, 0.308);
+  text-decoration: none;
   cursor: pointer;
+  transform: translate(0px, -5px);
+  box-shadow: 0px 10px 10px -5px #000;
 }
 
 footer {

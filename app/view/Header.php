@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <meta name="description" content="SockShop is a webshop for all types of socks, sports, casual, Christmas and more. Get your socks here!">
-  <meta name="keywords" content="">
+  <meta name="keywords" content="socks, webshop, christmas socks, christmas, sport socks, sport, happy, sockshop, nike, new socks">
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
     <nav class="fixed-top navigation">
       <div class="row">
         <div class="col-md-5">
-          <a class="brand" href="#">
+          <a class="brand" href="index.php">
             <h1>ThemeSocks</h1>
           </a>
         </div>
