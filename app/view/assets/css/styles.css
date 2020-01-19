@@ -202,4 +202,10 @@ footer {
   color: white;
   background-color: #243238;
 }
+
+.sideBar {
+  border-left: 2px solid rgba(75, 0, 119, 0.308);
+  margin-top: 15px;
+  font-family: Courgette, Arial, Helvetica, sans-serif;
+}
 /*# sourceMappingURL=styles.css.map */
